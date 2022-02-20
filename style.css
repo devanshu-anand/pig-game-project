@@ -45,6 +45,48 @@ body {
     padding: 100px;
 }
 
+.dash{
+    display: flex;
+    color: #fff;
+    background-color: #EB4D4D;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    flex:1;
+    color: #fff;
+    background-color: #EB4D4D;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.set-input{
+    position: absolute;
+    left: 46%;
+    top: 530px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #F0E7E5;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    width: 80px;
+}
+
+.final-win-score{
+    position: absolute;
+    left: 35%;
+    top: 55px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
 
 
 /**********************************************
@@ -70,7 +112,7 @@ body {
     margin-bottom: 130px;
 }
 
-.active { background-color: #FDF27E; }
+.active { background-color: #FFEFD5; }
 .active .player-name { font-weight: 700; }
 
 .active .player-name::after {
@@ -140,7 +182,7 @@ i {
 }
 
 
-.btn-new { top: 45px;}
+.btn-new { top: 120px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
@@ -155,3 +197,6 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+
+
